@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players>
+  <player id="FlashPlayer10" version="10" asversion="3">
+   <name>Flash Player 10.1</name>
+   <path builtin="true"/>
+   <path menuSortCategory="10"/>
+   <path platform="WIN">Device Central/adcdl.exe</path>
+   <path platform="MAC">Device Central/adcdl</path>
+   <playerDefinitionPath as2="$(UserConfig)/Classes/FP10;$(UserConfig)/Classes/FP9;$(UserConfig)/Classes/FP8;$(UserConfig)/Classes/FP7" as3="$(AppConfig)/ActionScript 3.0/FP10.1/playerglobal.swc" />
+   <feature name="multiScreenPublish" 		        supported="true" />
+   <feature name="mobileAuthoringIntegration"           supported="true" />
+   <feature name="deviceSound"             		supported="false"/>
+   <feature name="exportStreamingSound"    		supported="true"/>
+   <feature name="exportEventSound"        		supported="true"/>
+   <feature name="FSCommand2"              		supported="false"/>
+   <feature name="gradient_linearRGB" 			supported="true" />
+   <feature name="gradient_overflow" 			supported="true" />
+   <feature name="shape_strokeHint" 			supported="true" />
+   <feature name="shape_cap" 				supported="true" />
+   <feature name="shape_join" 				supported="true" />
+   <feature name="shape_mitre" 				supported="true" />
+   <feature name="shape_scale" 				supported="true" />
+   <feature name="linkage_exportForActionscript" 	supported="true" />
+   <feature name="linkage_exportForRuntimeSharing" 	supported="true" />
+   <feature name="linkage_exportInFirstFrame" 		supported="true" />
+   <feature name="linkage_importForRuntimeSharing" 	supported="true" />
+   <feature name="linkage_importAndAddToCache" 		supported="false" />
+   <feature name="publish_localPlaybackSecurity" 	supported="true" />
+   <feature name="publish_hardwareAcceleration" 	supported="true" />
+   <feature name="symbol_blendMode" 			supported="true" /> 
+   <feature name="actionScript_documentClass" 		supported="true" />
+   <feature name="symbol_blendMode" 			supported="true" />
+   <feature name="filters" 				supported="true" />
+   <feature name="component_binding" 			supported="true" />
+   <feature name="component_schema" 			supported="true" />
+   <feature name="screens" 				supported="true" />
+   <feature name="video" 				supported="true" />
+   <feature name="deviceVideo"				supported="false"/>
+   <feature name="accessibility" 			supported="true" />
+   <feature name="dynamic_text_kerning" 		supported="true" />
+   <feature name="static_text_charwidth_nondeviceFont"	supported="true" /> 
+   <feature name="static_text_charwidth_deviceFont"	supported="true" />
+   <feature name="advanced_anti_alias_text" 		supported="true" /> 
+   <feature name="nine_slice_scaling" 			supported="true" />
+   <feature name="runtimeNumberMinMax" 			supported="true" />
+   <feature name="use8kSampleRate"                      supported="true" />
+   <feature name="useDefineFont4ForDeviceText"          supported="true" />
+   <feature name="useDefineFont4ForEmbeddedFonts"       supported="true" />
+   <feature name="textLayoutFramework"       supported="true" />
+   <feature name="document_class"					supported="true" />
+   <encodingPresets>
+	    <preset uuid="da5cac1a-417a-4d86-b7f7-ef21010a5d7d"  name="FLV - Match Source Attributes (High Quality)" ext="flv" default="true"/>
+	</encodingPresets>
+   
+   <testmenu> 
+	<menu name="ID_testInFlash" default="true"/>
+	<menu name="ID_testInDeviceCentral" />
+   </testmenu>
+
+   <debugmenu>
+	<menu name="ID_debugtInFlash" default="true"/> 
+	<menu name="ID_debugInDeviceCentral"/> 
+  </debugmenu>
+
+
+   </player>
+</players>
